@@ -1,0 +1,114 @@
+body{
+    font-family: Tahoma;
+    color:gold;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+h1, h2{
+    font-weight: normal;
+}
+
+#wrapper{
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+}
+
+#page-banner{
+    background: green ;
+    padding: 10px 0;
+}
+
+#page-banner h1, #page-banner p{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#page-banner input{
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    padding: 8px;    
+    font-size: 16px;
+    color: #444;
+}
+
+#kegiatan, #tambah {
+    margin: 30px;
+}
+
+#kegiatan ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#kegiatan li{
+    padding: 20px;
+    border-left: 5px solid #ddd;
+    margin: 20px 10px;
+    color: black;
+}
+
+#kegiatan li:hover{
+    border-color: red;
+}
+
+.done{
+    float: right;
+    background: blue;
+    padding: 6px;
+    cursor: pointer;
+    color: white;
+}
+
+.done:hover{
+    background: #333;
+}
+
+#tambah{
+    width: 400px;
+    margin: 0 auto;
+}
+
+#tambah input{
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+    clear: both;
+}
+
+#tambah button{
+    border: 1px solid blue;
+    background:blue;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    cursor: pointer;
+    width: 100px;
+    float: left;
+    margin: 20px 0;
+    border-left: 0;
+    color: white;
+}
+
+#tambah:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#tambah #hide{
+  width: 30px;
+}
+
+#tambah label{
+  line-height: 52px;
+}
